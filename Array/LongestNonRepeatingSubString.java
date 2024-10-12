@@ -18,7 +18,6 @@ public class Main {
             curr++;
             mp.put(s.charAt(i), i);
         }
-
         arr.add(curr);
         Collections.sort(arr);
         System.out.println(arr.get(arr.size() - 1));
