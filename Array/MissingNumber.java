@@ -10,6 +10,7 @@ class Solution {
                 N = 1;
             }
         }
+
         int indx_sum;
         int ans = 0;
         indx_sum = (((n - 1) * (n)) / 2);
